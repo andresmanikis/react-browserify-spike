@@ -9,8 +9,5 @@
     "browserify": "^13.0.0",
     "grunt": "^0.4.5",
     "grunt-browserify": "^4.0.1"
-  },
-  "scripts": {
-    "build": "browserify -t [ babelify --presets [ react ] ] src/*.js -o dist/bundle.js"
   }
 }
